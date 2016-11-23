@@ -166,3 +166,30 @@ ul {
    margin-bottom: 0.8em;
    padding-left: 2.5em;
 }
+
+#header {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+#header a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 4px;
+    color: black;
+}
+
+#header a:hover {
+    background-color: white;
+    color: white !important;
+    background-color: black;
+}
+
+#header a.secondary_link {
+    margin-left: 15px;
+    color: #bbb;
+}
